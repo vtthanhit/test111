@@ -1,0 +1,15 @@
+.wrapper {
+  min-height: 100vh;
+  overflow-x: hidden;
+  position: relative;
+  width: 100% !important;
+  margin: 0 !important;
+}
+
+.content {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem !important;
+}
