@@ -4,7 +4,7 @@ import { publicRoute } from './routes/index';
 
 function App() {
   return (
-    <Router>
+    <Router basename="slash">
       <div className="App">
         <Routes>
           { publicRoute.map((route, index) => {
